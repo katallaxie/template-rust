@@ -1,0 +1,11 @@
+[package]
+name = "template-rust"
+version = "0.1.0"
+edition = "2021"
+description = "A tiny template to start a Rust project"
+repository = "https://github.com/katallaxie/template-rust"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
