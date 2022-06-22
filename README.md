@@ -1,4 +1,4 @@
-# :partying_face: Template for Rust
+# {{project-name}}
 
 ## Get Started
 
@@ -6,6 +6,6 @@
 
 * Install the rust toolchain in order to have cargo installed by following
   [this](https://www.rust-lang.org/tools/install) guide.
-* run `cargo install template-rust`
+* run `cargo install {{project-name}}`
 
 Happy coding!

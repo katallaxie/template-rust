@@ -1,9 +1,11 @@
 [package]
-name = "template-rust"
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
 version = "0.1.0"
 edition = "2021"
-description = "A tiny template to start a Rust project"
-repository = "https://github.com/katallaxie/template-rust"
+description = "{{project-description}}"
+repository = "https://github.com/{{gh-username}}/{{project-name}}"
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

@@ -1,5 +1,5 @@
 {
-  "name": "katallaxie/template-rust",
+  "name": "{{gh-username}}/{{project-name}}",
   "image": "mcr.microsoft.com/vscode/devcontainers/rust:latest",
   "postCreateCommand": "bash scripts/postCreateCommand.sh",
   "forwardPorts": [8080],
