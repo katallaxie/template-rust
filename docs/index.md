@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Introduction
 
 Creating a new Rust project is as easy as typing `cargo new <project_name>`
