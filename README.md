@@ -1,11 +1,3 @@
-# {{project-name}}
+# 🦀 Rust Template
 
-## Get Started
-
-### Cargo
-
-* Install the rust toolchain in order to have cargo installed by following
-  [this](https://www.rust-lang.org/tools/install) guide.
-* run `cargo install {{project-name}}`
-
-Happy coding!
+A teeny tiny template to get a [Rust]() project started with [cargo generate](https://github.com/cargo-generate/cargo-generate).
