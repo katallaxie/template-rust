@@ -16,9 +16,14 @@ jobs:
             - uses: actions/checkout@v5
               with:
                 fetch-depth:
+            - uses: actions/configure-pages@v5
+            - uses: actions/jekyll-build-pages@v1
+              with:
+                destination: ./out
+                source: ./docs
             - uses: actions/upload-pages-artifact@v4
               with:
-                path: ./docs
+                path: ./out
 
     deploy:
         needs: build
